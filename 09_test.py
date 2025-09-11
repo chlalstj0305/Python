@@ -32,3 +32,4 @@ while running:
     else: # # number 와 guess 가 서로 크지도 작지도 않으면? 아래 내용 출력
         print('정답입니다.')
         running = False # runnnig 변수는False 값으로 바뀌게 된다.
+
