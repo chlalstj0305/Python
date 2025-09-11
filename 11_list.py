@@ -14,7 +14,7 @@ a.append(1)
 a.append(2)
 a.append(3)
 
-# 리스트에 값을 넣는 방법1 - 특정한 번호를 지정해서 넣는 방법
+# 리스트에 값을 넣는 방법1 - 특정한 번호를 지정해서 넣는 방법 (insert: 밀어넣기)
 a.insert(1,'X')
 print(f'a의 길이: {len(a)}')
 print(f'a: {a}')
@@ -29,3 +29,22 @@ print(f'a의 마지막 방의 값은? {a[len(a)-1]}')
 # 파이썬에서 사용되는 방식, 0보다 뒤로 가면 맨 뒤로 이동된다는 개념
 print(f'a의 마지막 방의 값은? {a[-1]}')
 
+# 리스트 정렬(sort)
+shop_list.sort() # 오름차순
+print(f'shop_list: {shop_list}')
+
+shop_list.sort(reverse=True) # 내림차순
+print(f'shop_list: {shop_list}')
+
+# sorted는 원본의 리스트를 정렬한 값을 새로운 리스트로 변환
+new_list = sorted(shop_list)
+print(f'new_list: {new_list}')
+
+# a의 2번 인덱스(방)에 c를 넣는다.
+# insert와 다른 점은 해당 인덱스(방)의 값을 지우고 그 자리에 들어간다는 것
+a[2] = 'c'
+print(f'a: {a}')
+
+# list 삭제
+del a[1]
+print(f'a: {a}')
