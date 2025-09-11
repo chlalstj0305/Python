@@ -49,3 +49,4 @@ print(f'shop_list: {shop_list}')
 # sorted는 원본의 리스트를 정렬한 값을 새로운 리스트로 변환
 new_list = sorted(shop_list)
 print(f'new_list: {new_list}')
+
