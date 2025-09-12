@@ -22,3 +22,11 @@ print(a)
 # 사전에서 특정 요소 삭제
 del a['second']
 print(a)
+
+# 사전의 특정 요소를 꺼내보자. 방법1 (사용법은 List와 비슷하다.)
+print(dic2['name'])
+print(dic2['friends'])
+
+# 사전의 특정 요소를 꺼내보자. 방법2_get 함수 사용
+print(dic2.get('phone'))
+print(dic2.get('nick','해당 내용이 없음')) # 특정 키가 없는 경우 None이 아닌 대체 내용으로 반환 할 수 있음
