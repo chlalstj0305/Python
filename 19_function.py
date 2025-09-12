@@ -1,3 +1,5 @@
+# 9월 12일 수업 내용
+
 # 함수 선언(define)
 def toaster(bread):
     print(f'{bread}이 구워지고 있다.')
