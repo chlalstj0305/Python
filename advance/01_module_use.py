@@ -10,3 +10,5 @@ print(f'sum()함수 실행 : {sum(5,10)}')
 import oper as op
 print(f'minus()함수 실행 : {op.minus(10,5)}')
 
+# 변수도 불러다가 사용할 수 있다.
+print(f'field1 : {op.field1}/ field2 : {op.field2}')
