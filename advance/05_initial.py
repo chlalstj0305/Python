@@ -14,6 +14,6 @@ class Puppy:
         self.name = name
         self.goal = goal
 
-puppy = Puppy("멍멍이","집지키기") # 생성자를 호출하면서 이름 목적 전달
+puppy = Puppy("멍멍이","집지키기") # Puppy를 객체화 하면서 동시에 생성자를 호출하고 -> init에 이름 목적 전달
 print(f'이름: {puppy.name} / 목적: {puppy.goal}')
 
