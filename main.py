@@ -1,3 +1,5 @@
+# 9월 16일 수업내용
+
 # 모듈에 함수까지 전부 불러와서 사용하는 방법
 from com.py.oop.other_module import other_function
 other_function()
