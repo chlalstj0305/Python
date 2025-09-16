@@ -7,8 +7,8 @@ class Robot:
         print(f'객체 매서드 : {self.count}')
 
     @classmethod # 원본 영역의 변수를 건드릴 수 있다는 표시
-    def std_count(self):
-        print(f'클래스 매서드 : {self.count}')
+    def std_count(cls):
+        print(f'클래스 매서드 : {cls.count}')
 
 r1 = Robot()
 r2 = Robot()
