@@ -1,3 +1,5 @@
+# 9월 16일 수업 내용
+
 class Parent():
     def __init__(self):
         print('부모 생성자 실행!')
