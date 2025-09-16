@@ -36,7 +36,7 @@ r2.how_count()
 print(f'원본 count : {Robot.count}')
 
 # 1. 원본 영역에서 함수를 실행하니 self가 없다고 에러 발생
-# 2.
+# 2. TypeError: Robot.std_count() missing 1 required positional argument: 'self'
 Robot.std_count()
 
 
